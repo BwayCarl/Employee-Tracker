@@ -2,7 +2,7 @@
   "name": "employee-tracker",
   "version": "1.0.0",
   "description": "CLI to add, track, and delete employees.",
-  "main": "employees.js",
+  "main": "tracker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node employees.js"
