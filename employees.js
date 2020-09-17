@@ -18,6 +18,10 @@ let connection = mysql.createConnection({
 connection.connect(function(err) {
     if (err) throw err;
     console.log("Connected as ID " + connection.threadId);
+    console.clear();
+    console.log ("=====================================")
+    console.log ("|| WELCOME TO THE EMPLOYEE DATABASE ||");
+    console.log ("=====================================")
     runEmployeeDB();
   });
   
@@ -115,7 +119,7 @@ function runEmployeeDB() {
     }
         //Functions for each query
     function employeeList() {
-        let query = "SELECT * FROM employees";
+        let query = "SELECT * FROM employees INNER JOIN role ON employees.roleId = role.id";
         connection.query(query, function(err,res) {
             if (err) throw err;
             console.table(res)
