@@ -27,6 +27,8 @@ INSERT INTO role (title, salary, departmentID) VALUES ("Billing Coordinator", 12
 
 INSERT INTO role (title, salary, departmentID) VALUES ("Lawyer", 145000, 4);
 
+INSERT INTO role (title, salary, departmentID) VALUES ("Operations Mgr.", 145000, 5);
+
 INSERT INTO role (title, salary, departmentID) VALUES ("HR Coordinator", 110000, 10);
 
 -- EMPLOYEES =========================================
@@ -39,16 +41,16 @@ INSERT INTO role (title, salary, departmentID) VALUES ("HR Coordinator", 110000,
 
 -- Seed Employees Info =================================================================================
 INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('John', 'Coltrane',1, null );
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Lester', 'Young', 1, 1);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Lester', 'Young', 2, 1);
 INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Ella', 'Fitzgerald', 3, null);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('William', 'Basie', 2, null);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Benny', 'Goodman',2, 12);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Charlie', 'Parker', 3, 3);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Sarah', 'Vaughn', 3, 3);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Sonny', 'Rollins', 1, 1);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Clark', 'Terry', 4, null);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Carmen', 'McRae', 3, 3);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Edward', 'Ellington', 4, null);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Thomas', 'Waller', 2, null);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('John', 'Gillespie', 10, 4);
-INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Shirley', 'Horn', 2, null);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('William', 'Basie', 4, 3);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Benny', 'Goodman',5, 3);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Charlie', 'Parker', 6, null);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Sarah', 'Vaughn', 7, 6);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Sonny', 'Rollins', 8, 6);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Clark', 'Terry', 9, null);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Carmen', 'McRae', 10, null);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Edward', 'Ellington', 2, 1);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Thomas', 'Waller', 11, null);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('John', 'Gillespie', 7, 6);
+INSERT INTO employees (firstName, lastName, roleID, managerID) VALUES ('Shirley', 'Horn', 2, 1);
