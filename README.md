@@ -43,6 +43,8 @@ Once in the properly cloned folder, run ```npm install``` to install the followi
  Carlos Martinez
 
 ## *Screenshots* 
+![Tracker gif](assets/images/Employee-Tracker.gif)
+
 ![Screenshot 1](assets/images/Emp-DB-1.png)
 
 ![Screenshot 2](assets/images/Emp-DB-2.png)
